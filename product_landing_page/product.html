@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Cecilia Amoako" />
+    <meta name="description" content="A page about food products" />
+    <meta
+      name="keywords"
+      content="food, recipe, chef, healthy, yummy, tasty, delicious"
+    />
+    <meta name="viewport" content="width = device-width ,initial-scale=1.0" />
+    <meta http-equiv="refresh" content="30" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>A product landing page</title>
+  </head>
+  <body>
+    <header id="header">
+      <nav id="nav-bar" class="nav-bar">
+        <img id="header-img" src="logo.png" alt="A company logo" />
+        <a class="nav-link" href="#contact">Contact</a>
+        <a class="nav-link" href="#video">Video</a>
+        <a class="nav-link" href="#menu">Menu</a>
+        <a class="nav-link" href="#home">Home</a>
+      </nav>
+    </header>
+
+    <main>
+      <div id="home" class="image">
+        <p class="image-text">YOUR NUMBER #1 FRESHLY COOKED FOOD</p>
+      </div>
+
+      <div>
+        <h2 id="menu-header">FRESH MENU</h2>
+      </div>
+
+      <div id="menu">
+        <div id="pasta">
+          <div class="pasta-text">
+            <h4 class="food-head">Creamy Tomato Pasta</h4>
+            <img class="pasta-img" src="pasta.jpeg" alt="Pasta dish" />
+            <p class="food-content">
+              This Al dente noodles are tossed in a healthy tomato sauce and
+              finished with freshly chopped basil and grated parmesan cheese.
+              Your taste buds and your body will thank you for this amazing dish
+            </p>
+          </div>
+        </div>
+
+        <div id="pizza">
+          <div class="pizza-text">
+            <h4 class="food-head">Vegetarian Pizza</h4>
+            <img class="pizza-img" src="pizza.jpg" alt="" />
+            <p class="food-content">
+              This vegetarian pizza is fresh and full of flavor, featuring
+              cherry tomatoes, artichoke, bell pepper, olives, red onion and
+              some hidden baby spinach. You'll find a base of rich tomato sauce
+              and golden, bubbling mozzarella underneath, of course.
+            </p>
+          </div>
+        </div>
+
+        <div id="salad">
+          <h4 class="food-head">Healthy Taco Salad</h4>
+          <img class="salad-img" src="salad.jpg" alt="An image of taco salad" />
+          <p class="food-content">
+            This amazing twist on the traditional salad will leave you wanting
+            more. Made with delicious ground beef, avacado oil, avacado, salsa,
+            sour cream and taco seasoning.
+          </p>
+        </div>
+
+        <div id="grilled-fish">
+          <h4 class="food-head">Grilled Fish</h4>
+          <img class="fish-img" src="fish.jpg" alt="An image of a fish" />
+          <p class="food-content">
+            This fish fillet is grilled with olive oil, old bay seasoning,
+            paprika, lemon and parsley. This dish will make the whole family
+            happy with the joy of food.
+          </p>
+        </div>
+      </div>
+
+      <div>
+        <h2 id="video-header">WATCH HOW YOUR FOOD IS COOKED</h2>
+      </div>
+
+      <div class="video-page">
+        <iframe
+          id="video"
+          width="600"
+          height="450"
+          src="https://www.youtube.com/embed/LGx0_26DsRc"
+          title="YouTube video player"
+          frameborder="10"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen="false"
+        ></iframe>
+      </div>
+
+      <h2 id="contact-header">STAY IN TOUCH!</h2>
+
+      <div class="contact" id="contact">
+        <form id="form" action="">
+          <label for="name">Name</label> <br />
+          <input
+            type="text"
+            name="name"
+            placeholder="Enter your name"
+            id="name"
+          />
+          <br />
+
+          <label for="email">Email</label><br />
+          <input
+            placeholder="Enter email"
+            type="email"
+            name="email"
+            id="email"
+            required
+          />
+          <br />
+
+          <label for="">Message</label> <br />
+          <textarea name="" id="textarea" cols="50" rows="10"></textarea> <br />
+          <form action="https://www.freecodecamp.com/email-submit">
+            <input id="submit" type="submit" value="Send Request" />
+          </form>
+        </form>
+      </div>
+
+      <footer id="social">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-pinterest"></a> <br />
+        <span id="span"
+          >Copyright &copy; 2022 Bellyfull, All Rights Reserved
+        </span>
+      </footer>
+    </main>
+  </body>
+</html>
